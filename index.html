@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دعوة خطوبة - عبدالقادر ونور</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Reem+Kufi:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: linear-gradient(135deg, #fdfbf7 0%, #f4eee0 100%);
+            color: #2c2c2c;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .invitation-card {
+            background: #ffffff;
+            width: 100%;
+            max-width: 480px;
+            border-radius: 24px;
+            box-shadow: 0 15px 35px rgba(212, 175, 55, 0.15);
+            border: 2px solid #e6d5b8;
+            padding: 40px 25px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .invitation-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: linear-gradient(90deg, #d4af37, #fff, #d4af37);
+        }
+        .bismillah {
+            font-family: 'Reem Kufi', sans-serif;
+            font-size: 1.2rem;
+            color: #9c7c1b;
+            margin-bottom: 25px;
+        }
+        .title {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .names {
+            font-family: 'Reem Kufi', sans-serif;
+            font-size: 2.5rem;
+            color: #1a1a1a;
+            margin: 15px 0 25px 0;
+            background: linear-gradient(45deg, #b89728, #e6d5b8, #b89728);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .divider {
+            width: 60px;
+            height: 2px;
+            background-color: #d4af37;
+            margin: 20px auto;
+        }
+        .verse {
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            padding: 0 15px;
+        }
+        .details-box {
+            background-color: #faf7f0;
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 30px;
+            border: 1px dashed #d4af37;
+        }
+        .detail-item {
+            margin-bottom: 12px;
+            font-size: 1.05rem;
+            color: #333;
+        }
+        .detail-item:last-child {
+            margin-bottom: 0;
+        }
+        .detail-item strong {
+            color: #9c7c1b;
+        }
+        .countdown {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        .countdown-box {
+            background: #fff;
+            border: 1px solid #e6d5b8;
+            border-radius: 12px;
+            padding: 10px;
+            min-width: 65px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+        }
+        .countdown-number {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #b89728;
+        }
+        .countdown-label {
+            font-size: 0.75rem;
+            color: #777;
+        }
+        .btn-group {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+        .btn {
+            flex: 1;
+            padding: 12px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #d4af37, #aa8220);
+            color: white;
+        }
+        .btn-primary:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+        }
+        .btn-secondary {
+            background: #fff;
+            color: #b89728;
+            border: 1px solid #d4af37;
+        }
+        .btn-secondary:hover {
+            background: #faf7f0;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="invitation-card">
+        <div class="bismillah">بسم الله الرحمن الرحيم</div>
+        
+        <div class="title">دعوة خطوبة مباركة</div>
+        
+        <div class="names">عبدالقادر & نور</div>
+        
+        <div class="divider"></div>
+        
+        <p class="verse">
+            "وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً"
+            <br>يسرنا حضوركم ومشاركتنا فرحتنا بأجمل ليالي العمر.
+        </p>
+
+        <div class="details-box">
+            <div class="detail-item"><strong>اليوم والتاريخ:</strong> الخميس، 2026/09/03</div>
+            <div class="detail-item"><strong>الوقت:</strong> 4:00 عصراً</div>
+            <div class="detail-item"><strong>المكان:</strong> المسيب - الجيلاوية - مزرعة الياسمين الأبيض</div>
+        </div>
+
+        <div class="btn-group">
+           <a href="https://maps.app.goo.gl/9bH2BWeyaM72Ye58A?g_st=ic" target="_blank" class="btn btn-primary" style="background-color: #c5a059; color: #ffffff;">موقع المزرعة</a>
+            <a href="https://wa.me/9647702282219?text=أهلاً بك، أشكركم على الدعوة وسأكون من الحاضرين إن شاء الله" target="_blank" class="btn btn-primary">تأكيد الحضور (واتساب)</a>
+        </div>
+    </div>
+
+</body>
+<audio id="bgMusic" loop>
+    <source src="music.m4a" type="audio/mp4"> </audio>
+
+<script>
+    // تشغيل الموسيقى تلقائياً
+    document.getElementById('openBtn').addEventListener('click', function() {
+        var music = document.getElementById('bgMusic');
+        music.play().catch(function(error) {
+            console.log("التشغيل التلقائي يتطلب تفاعل المستخدم", error);
+        });
+    });
+</script>
+
+</html>
